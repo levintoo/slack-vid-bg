@@ -7,6 +7,7 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 #myVideo {
     position: fixed;
@@ -87,4 +88,9 @@ p{
     text-decoration: none;
     font-weight: 700;
     background-color: transparent;
+}
+.audio{
+    position: absolute;
+    margin-top: 30px;
+    left: 35%;
 }
